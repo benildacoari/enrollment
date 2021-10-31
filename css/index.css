@@ -1,0 +1,147 @@
+body {
+  background-image: url(../images/background-photo.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color:#464646;
+}
+
+@media only screen and (max-width: 767px) {
+  body {
+    background-image: url(../images/background-photo-mobile-devices.jpg);
+  }
+}
+
+
+
+
+html, body, .containerb {
+  height: 100%;
+}
+
+html, body, h1, p, a, div, section {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  font: inherit;
+}
+
+body { 
+  font: sans-serif;
+  color: #ffffff;
+}
+
+.blackt {
+  color: #232C62;
+  font-size: 18px;
+  line-height: 40px;
+  margin-top: 10px;
+}
+
+.blacks {
+  color:  #232C62;
+  font-variant:small-caps;
+  font-size: 30px;
+  line-height: 40px;
+  margin-top: 10px;
+}
+
+a {
+  color: #ffffff;
+}
+
+.containerb {
+  display: table;
+  padding-top: 80px;
+  width: 100%;
+}
+
+.contentb {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+/* Special */
+.sub-title {
+  font-family: courier;
+  color: #C1EEF7;
+
+  margin: 50px auto;
+  font-size: 25px;
+  line-height: 23px;
+  text-transform: uppercase;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 10px;
+  color: #cafaea;
+  border: 1px solid #cafaea;
+  border-radius: 3px;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 340px) {
+  
+  .containerb {
+    position: relative;
+    display: block;
+    float: left;
+    vertical-align: baseline;
+    margin: 0 auto;
+    padding: 80px 0 0 0;
+  }
+  
+  .contentb, blockquote {  
+    display: inline;
+    margin: 0 auto;
+    padding-top: 80px;
+    vertical-align: baseline;
+  }
+
+  .sub-title {
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  .button, p {
+    max-width: 150px;
+    margin: 0 auto;
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  html, body, .containerb {
+    height: auto;
+  }
+}
+
+.butn {
+ /*color: #cafaea; opacity: 0.1;background-color: transparent;*/
+
+  display: inline-block;
+  padding: 10px 10px;
+  color: #cafaea;
+  background: transparent;
+  border: 1px solid #cafaea;
+  border-radius: 3px;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+ 
+}
+.tx {
+ /*color: #cafaea; opacity: 0.1;background-color: transparent;*/
+  font-size: 18px;
+  font-family: Courier;
+  color: #C1EEF7;
+}
